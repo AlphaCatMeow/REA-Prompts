@@ -1,4 +1,4 @@
-# REA Investigation Prompts — Reverse Engineering with your Coding Agent
+# REA Investigation Prompts (REAP) — Reverse Engineering with your Coding Agent
 
 A curated collection of prompts for [REA (Reverse Engineer Anything)](https://rea.tools/) — the toolset that lets your AI coding agent inspect how software works, from native binaries, firmware and kernels to games, Electron apps, APKs and websites.
 
@@ -10,7 +10,7 @@ Prompts are ready to paste into your agent. Replace everything in `<angle bracke
 - **Official prompt gallery:** https://madewithrea.com/prompts
 - **Intro thread ("REA is the most dangerous thing on the internet right now")** by codila — https://x.com/0xCodila/status/2109623431763292649
   (quoting Matthew Berman — https://x.com/MatthewBerman/status/2108245653843509415)
-
+- **REAP Name** by https://x.com/zazencodes?s=11
 ## Table of contents
 
 | # | Section |
