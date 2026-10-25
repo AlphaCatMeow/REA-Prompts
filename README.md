@@ -4,6 +4,16 @@ A curated collection of prompts for [REA (Reverse Engineer Anything)](https://re
 
 Prompts are ready to paste into your agent. Replace everything in `<angle brackets>` and keep each request focused on **one feature** — narrow questions get evidence-backed answers.
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=joasasantos%2Frea-prompts&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=joasasantos/rea-prompts&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=joasasantos/rea-prompts&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=joasasantos/rea-prompts&type=date&legend=top-left" />
+ </picture>
+</a>
+
 ## Install as agent skills (recommended)
 
 `setup.sh` (macOS/Linux) or `setup.bat` (Windows) copies every prompt section into your coding agent's skills folder (`~/.hermes/skills`, `~/.claude/skills` or `~/.codex/skills`):
