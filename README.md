@@ -4,6 +4,25 @@ A curated collection of prompts for [REA (Reverse Engineer Anything)](https://re
 
 Prompts are ready to paste into your agent. Replace everything in `<angle brackets>` and keep each request focused on **one feature** — narrow questions get evidence-backed answers.
 
+## Install as agent skills (recommended)
+
+`setup.sh` (macOS/Linux) or `setup.bat` (Windows) copies every prompt section into your coding agent's skills folder (`~/.hermes/skills`, `~/.claude/skills` or `~/.codex/skills`):
+
+```bash
+./setup.sh          # auto-detect installed agents
+./setup.sh hermes   # or: claude-code | codex | all
+```
+
+```bat
+setup.bat           :: Windows
+```
+
+What you get:
+
+- **`Skills/`** — 26 skill packs, one folder per section (`reap-00-install-and-verify` … `reap-22-go-and-rust-binary-source-recovery`, plus `reap-prompts` index, `reap-wildcard` and `reap-prompt-writing-tips`), each a `SKILL.md` with YAML frontmatter the agent auto-loads when relevant.
+- **`system_prompt.md`** — the whole library as a single document you can paste into any agent's system prompt / custom instructions instead of installing skills.
+- **`tools/build_skills.py`** and **`tools/build_system_prompt.py`** — regenerate `Skills/` and `system_prompt.md` from `readme.md` (the setup scripts run them automatically; `readme.md` stays the source of truth).
+
 ## Sources & credits
 
 - **REA tools & guides:** https://rea.tools/
@@ -11,7 +30,6 @@ Prompts are ready to paste into your agent. Replace everything in `<angle bracke
 - **Intro thread ("REA is the most dangerous thing on the internet right now")** by codila — https://x.com/0xCodila/status/2109623431763292649
   (quoting Matthew Berman — https://x.com/MatthewBerman/status/2108245653843509415)
 - **REAP Name** by https://x.com/zazencodes?s=11
-  
 ## Table of contents
 
 | # | Section |
